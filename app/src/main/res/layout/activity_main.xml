@@ -6,7 +6,38 @@
     android:layout_height="match_parent"
     tools:context="com.example.a1691595.vikram.MainActivity">
 
-   
+   <
+    
+    
+    
+    Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="148dp" />
+    
+    
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    
+    
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -38,13 +69,7 @@
         android:text="RadioButton"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="75dp" />
-    
-   
-   
-   
-    
-    
-     <Button
+    <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -52,13 +77,6 @@
         tools:layout_editor_absoluteX="157dp"
         tools:layout_editor_absoluteY="148dp" />
 
-     <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="148dp" />
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
@@ -81,16 +99,16 @@
         android:layout_height="wrap_content"
         android:text="CheckBox"
         tools:layout_editor_absoluteX="16dp"
-              
-               <TextView
+        tools:layout_editor_absoluteY="163dp" />
+     Button
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-        tools:layout_editor_absoluteY="163dp" />
+        android:text="Button"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="148dp" />
+    
+    
 
     <Button
         android:id="@+id/button5"
